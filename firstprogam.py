@@ -78,10 +78,31 @@
 
 # print(dist)
 
-cout = 0
+# cout = 0
+# while cout <= 100:
+#     print(cout)
+#     cout = cout + 1
+#     # print(cout)
+# print("End of loop")
 
-while cout < 10:
-    print("Hello")
-    cout = cout + 1
-    # print(cout)
-print("End of loop")
+# couter
+# cout = 100
+# while cout >= 1:
+#     print(cout)
+#     cout = cout - 1
+#     # print(cout)
+# print("End of loop")
+
+#   n number table
+# n= int(input("Enter a number:"))
+# i=0
+# while i <= 10:
+#     print(n, "x", i, "=", n*i)
+#     i += 1
+# print("End of loop")
+
+
+num = [1,4,5,6,7,8,9,10,4,45,3,2,1,2,3,4,5,6,7,8,9,10]
+
+for i in range(len(num)):
+    print(num[i], end=" ")
