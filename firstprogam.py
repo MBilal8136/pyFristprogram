@@ -102,7 +102,14 @@
 # print("End of loop")
 
 
-num = [1,4,5,6,7,8,9,10,4,45,3,2,1,2,3,4,5,6,7,8,9,10]
+# num = [1,4,5,6,7,8,9,10,4,45,3,2,1,2,3,4,5,6,7,8,9,10]
 
-for i in range(len(num)):
-    print(num[i], end=" ")
+# for i in num:
+#  print(i, end=" ")
+
+num = int(input("Enter a number:"))
+fact = 1
+for i in range(1, num+1):
+    fact *= i
+  
+print("Sum of n numbers is:", fact)
